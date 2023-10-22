@@ -1,16 +1,12 @@
-# imccalculator
+# Calculadora IMC - CLI
 
-A new Flutter project.
+Versão de terminal da calculadora de IMC para o desafio DIO.
+Ela é baseada em um sistema de "tipos base", onde é criado um tipo para cada atributo da pessoa que são capazes de validar, converter strings para o seu tipo primitivo e lançar exceções caso os valores passados não sejam satisfatórios.
 
-## Getting Started
+Ao invés de criar uma classe IMC, eu criei um mixin que introduz getters e setters e permite o acesso aos dados de IMC da pessoa guardando o cálculo em memória
 
-This project is a starting point for a Flutter application.
+Para executar o programa, basta executar o seguinte comando:
 
-A few resources to get you started if this is your first Flutter project:
+`dart cli/main.dart`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Esta mesma estrutura de classes será reutilizada nos projetos futuros.
